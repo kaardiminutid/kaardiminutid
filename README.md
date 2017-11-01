@@ -15,7 +15,7 @@ jagame kogemusi ja loodetavasti lahkume senisest suurema
 kogemusepagasiga. 
 
 Hea oleks kui saaksid kaasa võtta isikliku arvuti, et kohtumisest
-maksimaalset võtta. Juhul kui on eelnevalt vaja midagi installeerida, 
+maksimaalset võtta. Juhul kui on vaja eelnevalt midagi installeerida, 
 siis anname sellest ka eelnevalt teada.
 
 ## Teemad
@@ -33,13 +33,19 @@ pole (ega ilmselt saagi olema). See peaks sündima vastavalt
 kooskäijate soovidele.
 
 ## Kus ja millal?
-Tartus. 
+Tartus. Detailid täpsustuvad ja ilmuvad siia.
 
+## Piloot
 Plaan on pidada n.ö piloot-kohtumine [@todo: kus ja millal?]. 
 Katseteemana võtame ette versioonihalduse giti vahenditega, teemat
 aitab juhtida Tõnis ([@tkardi](https://github.com/tkardi)). Täpsemat
 ülesastumise kondikava ja ettevalmistavaid tegevusi saad vaadata 
 (siit)[@todo: link]
+
+Kaardiminutite piloodi sujuvamaks organiseerimiseks on üles seatud
+[doodle küsitlus](https://doodle.com/poll/56fc4gniruwi2ydb). Ukse
+peal registreerumist ei kontrollita, kuid sobiva suurusega asukoha
+valikuks oleks ülimalt hea kui annaksid teada, et oled tulemas. 
 
 Juhul kui kaardiminutite piloot peaks osutuma ülemäära edukaks siis 
 planeerime kooskäimise tiheduseks maksimaalselt 1 kord kuus mõnel 
@@ -47,4 +53,4 @@ kokkulepitud nädalapäeval kestvusega 1-1.5h, kuid vastavalt
 kohalviibijate huvile võib minna ka kauem.
 
 ## Toimkond
-Geohuviliste kodanikuaktiiv [@todo: kontrolli üle kelle jaoks nime avaldamine ok].
+Geohuviliste kodanikuaktiiv koosseisus Leida, Risto, Õie, Tõnis.
