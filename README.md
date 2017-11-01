@@ -12,7 +12,11 @@ saada aru). Seepärast ootame kaardiminutitele nii konkreetses teemas
 algajaid kui ka edasijõudnuid - kõik on teretulnud. Isegi kui sa 
 igapäevaselt kaartide ja/või ruumiandmetega kokku ei puutu. Räägime,
 jagame kogemusi ja loodetavasti lahkume senisest suurema 
-kogemusepagasiga.
+kogemusepagasiga. 
+
+Hea oleks kui saaksid kaasa võtta isikliku arvuti, et kohtumisest
+maksimaalset võtta. Juhul kui on eelnevalt vaja midagi installeerida, 
+siis anname sellest ka eelnevalt teada.
 
 ## Teemad
 On sul mõni teema, millest tahaksid ise teistele rääkida? Võib-olla 
@@ -21,7 +25,8 @@ mida räägivad vaid piraadid? Kuidas taltsutada Pythonit?
 Kuidas teha ilusaid kaarte? (hah! :)) Miks kahheldatud vektor on 
 lahe ja kuidas seda teha? Kui shapefailid on ära tüüdanud, siis 
 mida selle asemel kasututada? Mis asi on SLD? PostgreSQL/PostGIS? 
-Kuhu viib pgRouting? QGIS? Või hoopis midagi muud? Anna endast märku.
+Kuhu viib pgRouting? QGIS ja selle pluginad? Või hoopis midagi muud? 
+Anna endast märku. 
 
 Otseselt pikas perspektiivis ettevalmistatud-kokkulepitud ajakava 
 pole (ega ilmselt saagi olema). See peaks sündima vastavalt 
@@ -38,7 +43,8 @@ aitab juhtida Tõnis ([@tkardi](https://github.com/tkardi)). Täpsemat
 
 Juhul kui kaardiminutite piloot peaks osutuma ülemäära edukaks siis 
 planeerime kooskäimise tiheduseks maksimaalselt 1 kord kuus mõnel 
-kokkulepitud nädalapäeval kestvusega 1-1.5h.
+kokkulepitud nädalapäeval kestvusega 1-1.5h, kuid vastavalt 
+kohalviibijate huvile võib minna ka kauem.
 
 ## Toimkond
 Geohuviliste kodanikuaktiiv [@todo: kontrolli üle kelle jaoks nime avaldamine ok].
