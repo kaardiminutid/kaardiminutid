@@ -36,16 +36,16 @@ kooskäijate soovidele.
 Tartus. Detailid täpsustuvad ja ilmuvad siia.
 
 ## Piloot
-Plaan on pidada n.ö piloot-kohtumine [@todo: kus ja millal?]. 
+Plaan on pidada n.ö piloot-kohtumine. Kaardiminutite piloodi 
+sujuvamaks organiseerimiseks on üles seatud
+[doodle küsitlus](https://doodle.com/poll/56fc4gniruwi2ydb). Ukse
+peal registreerumist ei kontrollita, kuid sobiva suurusega asukoha
+valikuks oleks ülimalt hea kui annaksid teada, et oled tulemas.
+
 Katseteemana võtame ette versioonihalduse giti vahenditega, teemat
 aitab juhtida Tõnis ([@tkardi](https://github.com/tkardi)). Täpsemat
 ülesastumise kondikava ja ettevalmistavaid tegevusi saad vaadata 
 (siit)[@todo: link]
-
-Kaardiminutite piloodi sujuvamaks organiseerimiseks on üles seatud
-[doodle küsitlus](https://doodle.com/poll/56fc4gniruwi2ydb). Ukse
-peal registreerumist ei kontrollita, kuid sobiva suurusega asukoha
-valikuks oleks ülimalt hea kui annaksid teada, et oled tulemas. 
 
 Juhul kui kaardiminutite piloot peaks osutuma ülemäära edukaks siis 
 planeerime kooskäimise tiheduseks maksimaalselt 1 kord kuus mõnel 
