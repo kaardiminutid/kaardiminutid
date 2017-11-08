@@ -38,9 +38,10 @@ Tartus. Detailid täpsustuvad ja ilmuvad siia.
 ## Piloot
 Plaan on pidada n.ö piloot-kohtumine. Kaardiminutite piloodi
 sujuvamaks organiseerimiseks on üles seatud
-[doodle küsitlus](https://doodle.com/poll/56fc4gniruwi2ydb). Ukse
-peal registreerumist ei kontrollita, kuid sobiva suurusega asukoha
-valikuks oleks ülimalt hea kui annaksid teada, et oled tulemas.
+[doodle küsitlus](https://doodle.com/poll/56fc4gniruwi2ydb). Kui 
+oled huvitatud, siis reageeri sellele hiljemalt kolmapäevaks 15.11. 
+Ukse peal registreerumist ei kontrollita, kuid sobiva suurusega 
+asukoha valikuks oleks ülimalt hea kui annaksid teada, et oled tulemas.
 
 Katseteemana võtame ette versioonihalduse giti vahenditega, teemat
 aitab juhtida Tõnis ([@tkardi](https://github.com/tkardi)). Täpsemat
@@ -53,4 +54,4 @@ kokkulepitud nädalapäeval kestvusega 1-1.5h, kuid vastavalt
 kohalviibijate huvile võib minna ka kauem.
 
 ## Toimkond
-Geohuviliste kodanikuaktiiv koosseisus Leida, Risto, Õie, Tõnis.
+Geohuviliste kodanikuaktiiv koosseisus Leida, Risto, Õie, Kristel, Tõnis.
