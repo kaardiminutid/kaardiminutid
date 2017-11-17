@@ -38,7 +38,9 @@ Tartus.
 Pilootüritus esmaspäeval 20.11.2017, Riia 35 (Regio kontor). Alustame 
 kella 1900 paiku. Kaasa võta läpakas ja juhul kui sul juba pole, siis 
 oleks hea kui paigaldaksid endale giti klientarkvara. Win masina jaoks
-nt https://git-for-windows.github.io/ (võib ka muu olla). 
+nt https://git-for-windows.github.io/ (võib ka muu olla). Juhul kui sa
+seda teha ei saa (tehnilised põhjused vms) pole hullu, oled ikkagi 
+oodatud osalema.
 
 ## Piloot
 Plaan on pidada n.ö piloot-kohtumine. Kaardiminutite piloodi
