@@ -33,7 +33,12 @@ pole (ega ilmselt saagi olema). See peaks sündima vastavalt
 kooskäijate soovidele.
 
 ## Kus ja millal?
-Tartus. Detailid täpsustuvad ja ilmuvad siia.
+Tartus. 
+
+Pilootüritus esmaspäeval 20.11.2017, Riia 35 (Regio kontor). Alustame 
+kella 1900 paiku. Kaasa võta läpakas ja juhul kui sul juba pole, siis 
+oleks hea kui paigaldaksid endale giti klientarkvara. Win masina jaoks
+nt https://git-for-windows.github.io/ (võib ka muu olla). 
 
 ## Piloot
 Plaan on pidada n.ö piloot-kohtumine. Kaardiminutite piloodi
