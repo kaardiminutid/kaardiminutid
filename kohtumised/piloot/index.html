@@ -1,7 +1,104 @@
+<!doctype html>
 <html>
-<head>
-</head>
-<body>
-Nobody expects the spanish inquisition
-</body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Tartu kaardiminutid 2011.11.20</title>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.5.0/css/reveal.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.5.0/css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.5.0/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cdn.jsdelivr.net/npm/reveal.js@3.5.0/css/print/pdf.css' : 'https://cdn.jsdelivr.net/npm/reveal.js@3.5.0/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                <section>
+                    <h2>Sissejuhatus versioonihaldusesse git vahenditega</h2>
+                    (Tartu kaardiminutite pilootkohtumine 2011.11.20)
+
+                    <br><br><br>
+                    <div align="right" style="font-size:16px;position:absolute;bottom:0px;right:0px">
+                        Tõnis Kärdi<br>
+                        @tkardi<br>
+                        tonis.kardi@gmail.com
+                    </div>
+				</section>
+                <section>
+                    <section>
+                        GIT ja SVN<br>
+                        (<i>snapshot</i> vs <i>difference</i>)
+                    </section>
+                    <section>
+                        SVN "deltad" ...
+                        <img src="https://git-scm.com/book/en/v2/images/deltas.png" style="background-color:white"/><br>
+                        <div align="right" style="font-size:16px;position:absolute;bottom:0px;right:0px">
+                            Joonis <a href="https://git-scm.com/book/en/v2">Pro Git</a> raamatust (<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>)
+                        </div>
+                    </section>
+                    <section>
+                        ... ja GIT "snapshotid"
+                        <img src="https://git-scm.com/book/en/v2/images/snapshots.png" style="background-color:white"/><br>
+                        <div align="right" style="font-size:16px;position:absolute;bottom:0px;right:0px">
+                            Joonis <a href="https://git-scm.com/book/en/v2">Pro Git</a> raamatust (<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>)
+                        </div>
+                    </section>
+                    <section>
+                        (põhimõtteliselt) kõik GITi operatsioonid on lokaalsed, kasutaja arvutis
+                    </section>
+                    <section>
+                        <i>working directory</i> - <i>staging area</i>
+                    </section>
+                    <section>
+                        <i>modified</i> - <i>staged</i> - <i>commited</i><br>
+                        (ehk siis ...)
+                    </section>
+                    <section>
+                        a) muudad faile<br>
+                        (sinu töökaust, <i>working directory</i>)
+                    </section>
+                    <section>
+                        b) valid, millised failid lähevad järgmisse <i>commit</i>i<br>
+                        (git lisab need <i>staging area</i>sse)
+                    </section>
+                    <section>
+                        c) teed <i>commit</i>i<br>
+                        (git muudab <i>stage</i>'itud failid <i>snapshot</i>iks)
+                    </section>
+                    <section>
+                        ja see põhimõtteliselt ongi töövoog gitis
+                    </section>
+                </section>
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.5.0/lib/js/head.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.5.0/js/reveal.min.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.5.0/plugin/markdown/marked.js' },
+					{ src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.5.0/plugin/markdown/markdown.js' },
+					{ src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.5.0/plugin/notes/notes.js', async: true },
+					{ src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.5.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
 </html>
