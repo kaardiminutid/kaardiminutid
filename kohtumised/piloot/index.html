@@ -48,14 +48,16 @@
                         SVN "deltad" ...
                         <img src="https://git-scm.com/book/en/v2/images/deltas.png" style="background-color:white"/><br>
                         <div align="right" style="font-size:16px;position:absolute;bottom:0px;right:0px">
-                            Joonis <a href="https://git-scm.com/book/en/v2">Pro Git</a> raamatust (<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>)
+                            Joonis <a href="https://git-scm.com/book/en/v2">Pro Git</a> raamatust (
+                            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>)
                         </div>
                     </section>
                     <section>
                         ... ja GIT "snapshotid"
                         <img src="https://git-scm.com/book/en/v2/images/snapshots.png" style="background-color:white"/><br>
                         <div align="right" style="font-size:16px;position:absolute;bottom:0px;right:0px">
-                            Joonis <a href="https://git-scm.com/book/en/v2">Pro Git</a> raamatust (<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>)
+                            Joonis <a href="https://git-scm.com/book/en/v2">Pro Git</a> raamatust (
+                            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>)
                         </div>
                     </section>
                     <section>
@@ -95,16 +97,31 @@
                         kuid mõned terminid veel
                     </section>
                     <section>
-                        <i>local</i> ja <i>remote</i>
+                        <div align="left">
+                            <i>local</i> - sinu lokaalne repo<br>
+                            <i>remote</i> - repo kuskil serveris<br>
+                        </div>
                     </section>
                     <section>
-                        <i>clone</i>, <i>checkout</i> ja <i>branch</i>
+                        <div align="left">
+                            <i>branch</i> - repo üks haru / versioon (+ tegevus)<br>
+                            <i>master</i> - repo "vanemharu", luuakse alati automaatselt<br>
+                            <i>checkout</i> - haru "väljavõtmine" repost <i>working dir</i>i<br>
+                            <i>clone</i> - <i>remote</i> repo koopia (+ tegevus)<br>
+                        </div>
                     </section>
                     <section>
-                        <i>pull</i>, <i>fetch</i> ja <i>merge</i>
+                        <div align="left">
+                            <i>fetch</i> - tõmba <i>remote</i>'ist muudatused<br>
+                            <i>merge</i> - mesti muudatused (<i>remote</i>'ist või harust)<br>
+                            <i>pull</i> - tõmba <i>remote</i>'ist muudatused ja mesti ühe liigutusega<br>
+                        </div>
                     </section>
                     <section>
-                        <i>fork</i> ja <i>pull request</i>
+                        <div align="left">
+                            <i>fork</i> - koopia mõnest võõrast remote'ist (!= RW privileegid)<br>
+                            <i>pull request</i> - palun mesti minu muudatused, mul ei ole RW õiguseid sinu repole<br>
+                        <div>
                     </section>
                 </section>
                 <section>
@@ -120,21 +137,261 @@
                         <h2>Eesmärk 1</h2>
                         <div align="left">
                             *) seadista repo oma kohalikus masinas<br>
-                            *) lisa sellesse fail (või paar)<br>
-                            *) muuda neid ja <i>salvesta</i> muudatused<br>
-                            *) publitseeri see, et su repo oleks teistele nähtav<br>
+                            *) lisa sellesse fail nimega README.md<br>
                         </div>
                     </section>
                     <section>
-                        &lt;kood siia, samm sammult mida teeme&gt;
+                        <pre>
+# loo kaust
+
+$ cd mingi/kaust/minu/masinas
+$ mkdir minurepo
+$ cd minurepo
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# initsialiseeri repo
+
+$ git init
+$ git status
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# lisa fail working directory'sse
+
+$ echo test > README.md
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# kontrolli staatust
+
+$ git status
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# stage'i muudatused
+
+$ git add README.md
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# commiti muudatused
+
+$ git commit -m "Repo seadistus"
+                        </pre>
+                    </section>
+                    <section>
+                        <img src="https://media.giphy.com/media/26AHG5KGFxSkUWw1i/giphy.gif"/>
+                        <div align="right" style="font-size:16px;position:absolute;bottom:0px;right:0px">
+                            <a href="https://giphy.com/gifs/illustration-rainbow-unicorn-26AHG5KGFxSkUWw1i">giphy</a> by
+							<a href="https://giphy.com/walternewton">Walter Newton</a>
+                        </div>
                     </section>
                 </section>
+                <section>
+                    <section>
+                        Markdown<br>
+                        (<a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"
+                            >https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</a>)
+                    </section>
+                    <section>
+                        markdown editorid<br>
+                        (win: <a href="http://lmgtfy.com/?q=windows+markdown+editor"
+                            >http://lmgtfy.com/?q=windows+markdown+editor</a>)
+                    </section>
+                    <section>
+                        <h2>Eesmärk 2</h2>
+                        <div align="left">
+                            *) muuda README.md ja <i>salvesta</i> muudatused eraldi harusse (<i>branch</i>)<br>
+                            *) lisa uude harusse uus fail<br>
+                            *) mesti muudatused <b>master</b> harusse
+                        </div>
+                    </section>
+                    <section>
+                        <pre>
+# navigeeri käsureal oma repo asukohta (kui vaja)
+
+$ cd mingi/kaust/minu/masinas/minurepo
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# loo uus haru
+
+$ git checkout -b katse-1
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# 1. ava README.md mõnes teksti-sõbralikus-editoris
+#    (Notepad++, Atom, Notepad? vms "formattimisvaba")
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# 2. lisa sinna H1 stiiliga pealkiri markdownis
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# 3. lisa sinna vähemalt 2 lõiku tavalist teksti
+#    (+ lisaks 1 hüperlink ja 1 pildifail)
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# 4. lisa sinna H2 stiiliga pealkiri
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# 5. lisa kõige lõppu tabel (3 veergu, 3 rida)
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# navigeeri käsureal oma repo asukohta (kui vaja)
+
+$ cd mingi/kaust/minu/masinas/minurepo
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# kontrolli staatust
+
+$ git status
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# stage'i muudatused
+
+$ git add README.md
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# commiti muudatused
+
+$ git commit -m "Markdowni kirjutamise testimine"
+                        </pre>
+                    </section>
+                    <section>
+                        Ja võib-olla aja jooksul mingid muudatused veel<br>
+                        (kuid mestime nüüd muudatused master harusse tagasi)
+                    </section>
+                    <section>
+                        <pre>
+# checkout master haru
+
+$ git checkout master
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# kontrolli staatust, midagi pole muutunud
+
+$ git status
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# loetle kohalikud harud
+
+$ git branch
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# merge haru (katse-1) masterisse
+
+$ git merge katse-1
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# kontrolli staatust
+
+$ git status
+                        </pre>
+                    </section>
+                    <section>
+                        <img src="https://media.giphy.com/media/26AHG5KGFxSkUWw1i/giphy.gif"/>
+                        <div align="right" style="font-size:16px;position:absolute;bottom:0px;right:0px">
+                            <a href="https://giphy.com/gifs/illustration-rainbow-unicorn-26AHG5KGFxSkUWw1i">giphy</a> by
+							<a href="https://giphy.com/walternewton">Walter Newton</a>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Eesmärk 3</h2>
+                        <div align="left">
+                            *) publitseeri oma repo, et see oleks teistele nähtav<br>
+                        </div>
+                    </section>
+                    <section>
+                        <pre>
+# vali oma "teenusepakkuja" ja loo repo serveril (nt GitHubis)
+                        </pre>
+                    </section>
+                    <section>
+                        http://github.com<br>
+                        <small>või</small><br>
+                        http://bitbucket.org<br>
+                        <small>või</small><br>
+                        http://gitlab.com<br>
+                        <small>või</small><br>
+                        ...
+                    </section>
+                    <section>
+                        <pre>
+# seejärel navigeeri käsureal oma repo asukohta (kui vaja)
+
+$ cd mingi/kaust/sinu/masinas/minurepo
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# "ühenda" oma lokaalne (local) repo kaugrepoga (remote)
+# NB! kontrolli URLi - sõltub valitud "teenusepakkujast"
+
+$ git remote add origin https://github.com/<kasutajanimi>/<reponimi>.git
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# "lükka" lokaalse repo master haru kaugreposse
+
+$ git push -u origin master
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# pärast mida võib minna veebibrauserisse oma tööd imetlema
+                        </pre>
+                    </section>
+                    <section>
+                        <img src="https://media.giphy.com/media/26AHG5KGFxSkUWw1i/giphy.gif"/>
+                        <div align="right" style="font-size:16px;position:absolute;bottom:0px;right:0px">
+                            <a href="https://giphy.com/gifs/illustration-rainbow-unicorn-26AHG5KGFxSkUWw1i">giphy</a> by
+							<a href="https://giphy.com/walternewton">Walter Newton</a>
+                        </div>
+                    </section>
+                </section>
+            </section>
+            <section>
                 <section>
                     <section>
                         repo kloonimine serverist
                     </section>
                     <section>
-                        <h2>Eesmärk 2</h2>
+                        <h2>Eesmärk 4</h2>
                         <div align="left">
                             *) klooni kaardiminutite repo https://github.com/kaardiminutid/kaardiminutid<br>
                             *) lisa osalejate nimekirja faili oma nimi ja viide enda eelnevalt loodud repole<br>
@@ -142,7 +399,37 @@
                         </div>
                     </section>
                     <section>
-                        &lt;kood siia, mida teeme &gt;
+                        <pre>
+# klooni kaardiminutite repo (loob automaatselt sinu enda "kahvli" - fork)
+
+$ git clone https://github.com/kaardiminutid/kaardiminutid.git
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# ava teksti-editoris kaardiminutid/kohtumised/piloot/osalejad.md
+# ning lisa sinna oma nimi ja URL enda eelnevalt loodud repole
+                        </pre>
+                    </section>
+                    <section>
+                        <pre>
+# commiti muudatused enda forki
+# (s.t git status, git add, git commit, git push nii nagu ennegi)
+                        </pre>
+                    </section>
+                    <section>
+                        NB! Nüüd oleks õige aeg anda repo omanikule märku, et
+                        sul on muudatusi<br>
+                        (ava õssu vms)<br>
+                        <small>kuid täna lihtsalt ...</small>
+                    </section>
+                    <section>
+                        <pre>
+# tee pull request GitHubi lehel
+                        </pre>
+                    </section>
+                    <section>
+                        ...ja nüüd on see koht, kus @tkardi peaks üle vaatama ja merge'ima
                     </section>
                 </section>
                 <section>
@@ -151,10 +438,20 @@
                         (a.k.a kodune töö :))
                     </section>
                     <section>
+                        see ettekanne<br>
+                        <a href="https://kaardiminutid.github.io/kaardiminutid/kohtumised/piloot"
+                            >https://kaardiminutid.github.io/kaardiminutid/kohtumised/piloot</a>
+                    </section>
+                    <section>
                         <div align="left">
-                            Git - the simple quide - no deep shit! <a href="http://rogerdudler.github.io/git-guide/">http://rogerdudler.github.io/git-guide/</a><br>
-                            Git book <a href="https://git-scm.com/book/en/v2">https://git-scm.com/book/en/v2</a><br>
-                            Git workflows <a href="https://www.atlassian.com/git/tutorials/comparing-workflows">https://www.atlassian.com/git/tutorials/comparing-workflows</a><br>
+                            Git - the simple quide - no deep shit!
+                            <a href="http://rogerdudler.github.io/git-guide/"
+                                >http://rogerdudler.github.io/git-guide/</a><br>
+                            Git book <a href="https://git-scm.com/book/en/v2"
+                                >https://git-scm.com/book/en/v2</a><br>
+                            Git workflows
+                            <a href="https://www.atlassian.com/git/tutorials/comparing-workflows"
+                                >https://www.atlassian.com/git/tutorials/comparing-workflows</a><br>
                         </div>
                     </section>
                 </section>
