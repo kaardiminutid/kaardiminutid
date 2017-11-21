@@ -8,3 +8,4 @@ _pull request_.
 | Nimi                    | Repo                                               |
 |:----------------------- |:-------------------------------------------------- |
 | Tõnis Kärdi             | https://github.com/tkardi/kmtest                   |
+| Anto Aasa               | https://github.com/maakaart/repo                   |
