@@ -9,3 +9,4 @@ _pull request_.
 |:----------------------- |:-------------------------------------------------- |
 | Tõnis Kärdi             | https://github.com/tkardi/kmtest                   |
 | Anto Aasa               | https://github.com/maakaart/repo                   |
+| Õie Nikkel              | https://github.com/6ie/repos                       |
