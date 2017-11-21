@@ -211,7 +211,8 @@ $ git commit -m "Repo seadistus"
                     <section>
                         <h2>Eesmärk 2</h2>
                         <div align="left">
-                            *) muuda README.md ja <i>salvesta</i> muudatused eraldi harusse (<i>branch</i>)<br>
+                            *) loo uus haru (<i>branch</i>)<br>
+                            *) muuda README.md ja <i>salvesta</i> muudatused loodud harusse<br>
                             *) lisa uude harusse uus fail<br>
                             *) mesti muudatused <b>master</b> harusse
                         </div>
@@ -266,6 +267,14 @@ $ cd mingi/kaust/minu/masinas/minurepo
                     </section>
                     <section>
                         <pre>
+# lisa uus fail
+
+$ echo test > uusfail.txt
+                        </pre>
+                    </section>
+
+                    <section>
+                        <pre>
 # kontrolli staatust
 
 $ git status
@@ -273,9 +282,9 @@ $ git status
                     </section>
                     <section>
                         <pre>
-# stage'i muudatused
+# stage'i muudatused (NB! -A switch lisab ootejärjekorda kõik failid)
 
-$ git add README.md
+$ git add -A
                         </pre>
                     </section>
                     <section>
@@ -304,6 +313,16 @@ $ git status
                         </pre>
                     </section>
                     <section>
+                        uuri File Exploreris oma töökausta<br>
+                        <small>(README.md peaks olema nähtav vana sisuga
+                            ja uus lisatud fail peaks üldse puuduma)</small>
+                    </section>
+                    <section>
+                        NB! need ei ole kadunud :)<br>
+                        <small>(need muudatused on alles, kuid eelnevalt loodud
+                            katse-1 harus, kuid vaatame hetkel master haru)</small>
+                    </section>
+                    <section>
                         <pre>
 # loetle kohalikud harud
 
@@ -323,6 +342,11 @@ $ git merge katse-1
 
 $ git status
                         </pre>
+                    </section>
+                    <section>
+                        uuri File Exploreris uuesti oma töökausta<br>
+                        <small>(README.md on nüüd nähtav vana sisuga
+                            ja uus lisatud fail ka olemas)</small>
                     </section>
                     <section>
                         <img src="https://media.giphy.com/media/26AHG5KGFxSkUWw1i/giphy.gif"/>
