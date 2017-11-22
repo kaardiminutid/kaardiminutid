@@ -35,30 +35,68 @@ kooskäijate soovidele.
 ## Kus ja millal?
 Tartus. 
 
-Pilootüritus esmaspäeval 20.11.2017, Riia 35 (Regio kontor). Alustame 
-kella 1900 paiku. Kaasa võta läpakas ja juhul kui sul juba pole, siis 
-oleks hea kui paigaldaksid endale giti klientarkvara. Win masina jaoks
-nt https://git-for-windows.github.io/ (võib ka muu olla). Juhul kui sa
-seda teha ei saa (tehnilised põhjused vms) pole hullu, oled ikkagi 
-oodatud osalema.
+Püüame alustada kell 19:00 õhtul (+ 15 min on täiesti ok). Ja 
+Kestvuseks plaanime ~1.5h. Juhul kui peaks juba eelnevalt ette 
+teadma, et läheb kauem/vähem, siis anname sellest jooksvalt eelnevalt 
+märku.
 
-## Piloot
-Plaan on pidada n.ö piloot-kohtumine. Kaardiminutite piloodi
-sujuvamaks organiseerimiseks on üles seatud
-[doodle küsitlus](https://doodle.com/poll/56fc4gniruwi2ydb). Kui 
-oled huvitatud, siis reageeri sellele hiljemalt kolmapäevaks 15.11. 
-Ukse peal registreerumist ei kontrollita, kuid sobiva suurusega 
-asukoha valikuks oleks ülimalt hea kui annaksid teada, et oled tulemas.
+Kokkusaamise täpsem koht selgub jooksvalt sõltuvalt huvitundvate 
+inimeste arvust (sest ruumid ei ole kummist ja kolmekesi suures toas
+hakkab lihtsalt külm) ning plaanitava eeskava neti- ja projektorivajadusest 
+(sest iga õpituba ei pea alati toimuma arvuti taga).
 
-Katseteemana võtame ette versioonihalduse giti vahenditega, teemat
-aitab juhtida Tõnis ([@tkardi](https://github.com/tkardi)). Täpsemat
-ülesastumise kondikava ja ettevalmistavaid tegevusi saad vaadata
-[siit](kohtumised/piloot/index.html)
+## See on huvitav, tahaksin osa võtta, aga kuidas?
+Iga kokkusaamise eel kuulutame siin repos [õssude all](
+https://github.com/kaardiminutid/kaardiminutid/issues) ja 
+[ESTGIS](http://estgis.ee)i meililistis ning muudes kasutada 
+olevates kanalites välja doodle küsimustiku võimalike järgmise kohtumise
+aegadega. Märgi seal oma eelistus(ed) ja jää _valimistulemust_ ootama. 
 
-Juhul kui kaardiminutite piloot peaks osutuma ülemäära edukaks siis
-planeerime kooskäimise tiheduseks maksimaalselt 1 kord kuus mõnel
-kokkulepitud nädalapäeval kestvusega 1-1.5h, kuid vastavalt
-kohalviibijate huvile võib minna ka kauem.
+Ilmselt sõltub osalemisotsus ka plaanitavast eeskavast, sest alati ei pruugi 
+iga teema huvi pakkuda. Selleks, et eeskava oleks võimalikult 
+mitmekesine on avatud lehekülg 
+(@TODO vt [#5](https://github.com/kaardiminutid/kaardiminutid/issues/5)), 
+kuhu saad märkida 
+inimese, keda sooviksid rääkimas/juhendamas näha ja lisaks teema,
+millel ise soovid rääkida. Sest kui poleks meid kõiki soovimas oma teemadest 
+rääkida, siis kes seda ikka teeks.
 
-## Toimkond
-Geohuviliste kodanikuaktiiv koosseisus Leida, Risto, Õie, Kristel, Tõnis.
+Aaa... aga enne kui märgid oma soovi kedagi teist rääkimas kuulda, oleks 
+hea ja viisakas kui väljapakutavaga eelnevalt kokku ka lepiksid. Et vältida 
+hilisemaid halbu üllatusi.
+
+## Lahe, kas lisaks osalemisele saan ise ka kaasa lüüa?
+Loomulikult. Vaata läbi siin repos avatud [õssud](
+https://github.com/kaardiminutid/kaardiminutid/issues), sinu ettepanekud
+ja abi ürituste organiseerimisel on teretulnud. Vajadusel ava aruteluks 
+uus õssu.
+
+@TODO kas _privaatsed_ küsimused (mis need võiks olla??) võiks 
+estgis@estgis.ee lasta saata? Juhatusega läbi rääkida ja kokku leppida.
+
+## Kohtumised
+Kohtumistel läbi käidud teemad on arhiveeritud [@TODO](https://) lehel.
+Lühikokkuvõtted kohtumistest on järgnevad
+
+### Piloot (nov 2017)
+Pilootüritus toimus esmaspäeval 20.11.2017, Riia 35 (Regio kontor). 
+
+Katseteemana võtsime ette versioonihalduse giti vahenditega, teemat
+aitas juhtida Tõnis ([@tkardi](https://github.com/tkardi)). 
+Rääkisime ja tegime läbi lihtsamad tööülesanded, mida `git`iga teha:
+repo loomine oma arvutis, failide lisamine versioonihaldusesse, nende
+muutmine; oma lokaalse repo avalikustamine. Osalejatele jäi _koduseks
+ülesandeks_ lisada oma nimi [üritusel osalejate nimekirja](https://kaardiminutid.github.io/kaardiminutid/kohtumised/piloot/osalejad).
+Täpsemat ülesastumise kondikava saad vaadata 
+[siit](kaardiminutid.github.io/kaardiminutid/kohtumised/piloot). 
+
+### Vol 1 (dets 2017)
+Toimumise kuupäeva otsustame: 
+[https://doodle.com/poll/aza6nx7nqituw2mh](https://doodle.com/poll/aza6nx7nqituw2mh)
+
+Kohtumise teema valime:
+[@TODO #5](http://)
+
+Täpsemalt vt 
+[siit](https://github.com/kaardiminutid/kaardiminutid/issues?q=label%3Akohtumine-1%20)
+
