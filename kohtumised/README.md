@@ -8,9 +8,12 @@ seda kindlasti, nt _pull request_'iga :)
 
 
 ## Piloot
-Sissejuhatus versioonihaldusesse git vahenditega
+Toimus: 20.11.2017, Riia 35 (Regio kontor).
 
-20.11.2017, Riia 35 (Regio kontor).
+Pealkiri: Sissejuhatus versioonihaldusesse git vahenditega.
+
+Materjalid: [https://kaardiminutid.github.io/kaardiminutid/kohtumised/piloot](
+https://kaardiminutid.github.io/kaardiminutid/kohtumised/piloot)
 
 ### Kokkuvõte
 Tartu kaardiminutite pilootkohtumine leidis aset 20.11.2017. Selle
@@ -70,4 +73,4 @@ jõudis teade alles reede õhtul (pärast tööpäeva lõppu) enne esmaspäeva.
 
 
 ## Vol 1
-@TODO
+@TODO :)
