@@ -84,11 +84,17 @@ Pilootüritus toimus esmaspäeval 20.11.2017, Riia 35 (Regio kontor).
 Täpsemalt vt [siit](kohtumised/README.md)
 
 ### Vol 1 (dets 2017)
-Toimumise kuupäeva otsustame:
-[https://doodle.com/poll/aza6nx7nqituw2mh](https://doodle.com/poll/aza6nx7nqituw2mh)
+Detsembrikuisel, esimesel ametlikul Tartu kaardiminutite kohtumisel astub üles
+Anto Aasa, kes aitab meil sotti saada, kuidas R'i ja selle sugulaste abiga
+kiiresti analüüsitulemusi visualiseerida.
 
-Kohtumise teema valime:
-[@TODO #5](http://)
+Toimumise kuupäeva otsustame [https://doodle.com/poll/aza6nx7nqituw2mh](
+https://doodle.com/poll/aza6nx7nqituw2mh). Anna enda huvist märku!
 
-Täpsemalt vt
-[siit](https://github.com/kaardiminutid/kaardiminutid/issues?q=label%3Akohtumine-1%20)
+Ülesastumise kondikava saad uurida [aasa.ut.ee/kaardiminutid/](http://aasa.ut.ee/kaardiminutid/)
+
+Seniks
+
+<img src="http://oppressive-silence.com/wp-content/uploads/2016/12/piracysoftware.jpg" width=300/>
+
+> http://oppressive-silence.com/comic/piracy-software
