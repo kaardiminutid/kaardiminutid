@@ -52,19 +52,6 @@ https://github.com/kaardiminutid/kaardiminutid/issues) ja
 olevates kanalites välja doodle küsimustiku võimalike järgmise kohtumise
 aegadega. Märgi seal oma eelistus(ed) ja jää _valimistulemust_ ootama.
 
-Ilmselt sõltub osalemisotsus ka plaanitavast eeskavast, sest alati ei pruugi
-iga teema huvi pakkuda. Selleks, et eeskava oleks võimalikult
-mitmekesine on avatud lehekülg
-(@TODO vt [#5](https://github.com/kaardiminutid/kaardiminutid/issues/5)),
-kuhu saad märkida
-inimese, keda sooviksid rääkimas/juhendamas näha ja lisaks teema,
-millel ise soovid rääkida. Sest kui poleks meid kõiki soovimas oma teemadest
-rääkida, siis kes seda ikka teeks.
-
-Aaa... aga enne kui märgid oma soovi kedagi teist rääkimas kuulda, oleks
-hea ja viisakas kui väljapakutavaga eelnevalt kokku ka lepiksid. Et vältida
-hilisemaid halbu üllatusi.
-
 ## Lahe, kas lisaks osalemisele saan ise ka kaasa lüüa?
 Loomulikult. Vaata läbi siin repos avatud [õssud](
 https://github.com/kaardiminutid/kaardiminutid/issues), sinu ettepanekud
