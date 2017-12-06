@@ -65,23 +65,26 @@ siis võid kirjutada estgis@estgis.ee.
 Kohtumistel läbi käidud teemad on arhiveeritud [kohtumiste](kohtumised/README.md)
 lehel. Lühikokkuvõtted kohtumistest on järgnevad
 
+### Vol 1 (dets 2017)
+Tartu kaardiminutite esimese ametliku kohtumise doodle küsitlus näitab toetust 
+järgmise nädala esmaspäevale - https://doodle.com/poll/aza6nx7nqituw2mh. Juhul 
+kui siiski tunned huvi, kuid seni pole end kirja pannud, pole hullu, ukse peal 
+regamist ei kontrollita. Tule kohale :)
+
+Seega... saame kokku __esmaspäeval, 11.12.2017 kell 19:00 aadressil Vanemuise 
+46-334__. Üles astub Anto Aasa, teemaks: RRRRRRrrrrrr! 
+
+Kui plaanid tulla, siis ole hea võta kaasa läpakas (sest nii on osalemine ju 
+põnevam) ja paiglada endale eelnevalt R, RStudio Desktop ja Rtools tarkvara. 
+Täpsemat juhist vaata http://aasa.ut.ee/kaardiminutid/
+
+Me õpime veel!
+
+![RRRR! matey!](http://oppressive-silence.com/wp-content/uploads/2016/12/piracysoftware.jpg)
+
+> http://oppressive-silence.com/comic/piracy-software
+
 ### Piloot (nov 2017)
 Pilootüritus toimus esmaspäeval 20.11.2017, Riia 35 (Regio kontor).
 
 Täpsemalt vt [siit](kohtumised/README.md)
-
-### Vol 1 (dets 2017)
-Detsembrikuisel, esimesel ametlikul Tartu kaardiminutite kohtumisel astub üles
-Anto Aasa, kes aitab meil sotti saada, kuidas R'i ja selle sugulaste abiga
-kiiresti analüüsitulemusi visualiseerida.
-
-Toimumise kuupäeva otsustame [https://doodle.com/poll/aza6nx7nqituw2mh](
-https://doodle.com/poll/aza6nx7nqituw2mh). Anna enda huvist märku!
-
-Ülesastumise kondikava saad uurida [aasa.ut.ee/kaardiminutid/](http://aasa.ut.ee/kaardiminutid/)
-
-Seniks
-
-<img src="http://oppressive-silence.com/wp-content/uploads/2016/12/piracysoftware.jpg" width=300/>
-
-> http://oppressive-silence.com/comic/piracy-software
