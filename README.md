@@ -76,7 +76,7 @@ Seega... saame kokku __esmaspäeval, 11.12.2017 kell 19:00 aadressil Vanemuise
 
 Kui plaanid tulla, siis ole hea võta kaasa läpakas (sest nii on osalemine ju 
 põnevam) ja paiglada endale eelnevalt R, RStudio Desktop ja Rtools tarkvara. 
-Täpsemat juhist vaata http://aasa.ut.ee/kaardiminutid/
+Täpsemat juhist vaata [http://aasa.ut.ee/kaardiminutid/](http://aasa.ut.ee/kaardiminutid/)
 
 Me õpime veel!
 
